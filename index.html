@@ -25,25 +25,19 @@
             <a href="flower.html">Klik disini</a>
         </button>
     </div>
-	<embed src="" Loop="true" autostart="true" width="2" height="0" hidden>
-	<audio id="myAudio" controls autoplay hidden
-	    <source src="On Sight.mp3" type="audio/mpeg">
-	</audio>
-<p>
-  <button onclick="playAudio()">Play Audio</button>
-  <button onclick="pauseAudio()">Pause Audio</button>
-</p>
-
-<script>
-  function playAudio() {
-    var audio = document.getElementById("myAudio");
-    audio.play();
-  }
-
-  function pauseAudio() {
-    var audio = document.getElementById("myAudio");
-    audio.pause();
-  }
-</script>
+<div id="page">
+  <main>
+    <div id="musicPrompt">
+      <p>Play audio?</p>
+      <p class="buttons">
+        <button value="0">No</button>
+        <button value="1">Yes</button>
+      </p>
+    </div>
+  </main>
+  <footer>
+    <button id="playAudioBtn" disabled>Play Audio</button>
+  </footer>
+</div>
 </body>
 </html>
