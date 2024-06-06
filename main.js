@@ -1,6 +1,6 @@
 const audio = new Audio('https://vmirror.imslp.org/files/imglnks/usimg/0/06/IMSLP197806-PMLP02397-3-ClairDeLune-j.mp3');
-const musicPromptWindow = document.getElementById('musicPrompt');
-const playAudioBtn = document.getElementById('playAudioBtn');
+const musicPromptWindow = document.getElementByClassName('musicPrompt');
+const playAudioBtn = document.getElementByClassName('playAudioBtn');
 audio.muted = true;
 
 playAudioBtn.onclick = function () {
