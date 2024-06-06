@@ -27,7 +27,3 @@ function playAudio(doPlayAudio) {
 function setPlayAudioBtnText(isAudioMuted) {
   playAudioBtn.innerText = isAudioMuted ? 'Play audio' : 'Mute audio';
 }
-
-onload = () =>{
-        document.body.classList.remove("container");
-};
