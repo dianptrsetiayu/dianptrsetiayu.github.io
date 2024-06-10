@@ -1,7 +1,7 @@
 onload = () =>{
         document.body.classList.remove("container");
 };
-const audio = new Audio('https://drive.google.com/file/d/1gtRnoOaspPRt3tEd_cctjR7ofly8T7eg/view?usp=sharing');
+const audio = new Audio('https://docs.google.com/uc?export=open&id=1gtRnoOaspPRt3tEd_cctjR7ofly8T7eg');
 const musicPromptWindow = document.getElementById('musicPrompt');
 const playAudioBtn = document.getElementById('playAudioBtn');
 audio.muted = true;
