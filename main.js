@@ -1,7 +1,7 @@
 onload = () =>{
         document.body.classList.remove("container");
 };
-const audio = new Audio('https://vmirror.imslp.org/files/imglnks/usimg/0/06/IMSLP197806-PMLP02397-3-ClairDeLune-j.mp3');
+const audio = new Audio('https://od.lk/s/MzdfMjg2ODMxOThf/music.mp3');
 const musicPromptWindow = document.getElementById('musicPrompt');
 const playAudioBtn = document.getElementById('playAudioBtn');
 audio.muted = true;
