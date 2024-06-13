@@ -42,19 +42,19 @@ body{
     animation-delay: .8s;
 }
 .greetings > span:nth-child(6){
-    animation-delay: .2s;
+    animation-delay: .0s;
 }
 .greetings > span:nth-child(7){
-    animation-delay: .4s;
+    animation-delay: .2s;
 }
 .greetings > span:nth-child(8){
-    animation-delay: .6s;
+    animation-delay: .4s;
 }
 .greetings > span:nth-child(9){
-    animation-delay: .8s;
+    animation-delay: .6s;
 }
 .greetings > span:nth-child(10){
-    animation-delay: 1.0s;
+    animation-delay: .8s;
 }
 
 .description{
