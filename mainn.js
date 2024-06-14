@@ -1,3 +1,6 @@
+window.onload = function () {
+    document.getElementById('btnyes').click()
+}
 onload = () =>{
         document.body.classList.remove("container");
 };
