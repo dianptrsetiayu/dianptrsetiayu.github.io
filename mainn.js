@@ -1,5 +1,5 @@
-window.onload = function () {
-    document.getElementById('btnyes').click()
+onload = () =>{
+        document.body.classList.remove("container");
 };
 const audio = new Audio('https://od.lk/s/MzdfMjg2ODMxOThf/music.mp3');
 const musicPromptWindow = document.getElementById('musicPrompt');
