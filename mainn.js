@@ -1,9 +1,3 @@
-function autoClick(){
-  alert("I am loaded and automatically clicked");
-}
-window.onload = function(){
-  document.getElementById('btnyes').click();
-}
 onload = () =>{
         document.body.classList.remove("container");
 };
